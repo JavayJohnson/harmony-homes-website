@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us | Harmony Homes Independent Living LLC</title>
+  <title>Contact Us | Harmony Homes Independent Living, LLC</title>
   <meta name="description" content="Clean, safe, welcoming independent living housing in Clarksville, TN for veterans, SSI/SSDI recipients, reentry individuals, and adults seeking stable housing." />
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
@@ -14,12 +14,12 @@
   <header class="site-header">
     <div class="topbar container">
       <a class="logo-wrap" href="index.html" aria-label="Harmony Homes home">
-        <img src="assets/main-logo.png" alt="Harmony Homes Independent Living LLC" class="logo" />
+        <img src="assets/main-logo.png" alt="Harmony Homes Independent Living, LLC" class="logo" />
       </a>
       <div class="header-actions">
         <a href="tel:+18442273701" class="header-contact">☎ 844-227-3701 (844-CARES01)</a>
         <a href="mailto:info@harmonyhomeslivingllc.com" class="header-contact">✉ info@harmonyhomeslivingllc.com</a>
-        <a href="apply.html" class="btn btn-orange">JOIN WAITLIST</a>
+        <a href="apply.html" class="btn btn-orange">Join Waitlist</a>
       </div>
       <button class="menu-toggle" aria-label="Open menu">☰</button>
     </div>
@@ -27,7 +27,7 @@
       <div class="container nav-inner">
         <a class="" href="index.html">Home</a>
 <a class="" href="about.html">About Us</a>
-<a class="" href="rooms.html">Available Rooms</a>
+<a class="" href="rooms.html">Rooms</a>
 <a class="" href="amenities.html">Amenities</a>
 <a class="" href="apply.html">Waitlist</a>
 <a class="" href="pay-rent.html">Payments</a>
@@ -44,7 +44,7 @@
   <div class="container">
     <p class="eyebrow">Contact Us</p>
     <h1>We’re Here to Help!</h1>
-    <p>Reach out with questions about availability, applications, or housing options.</p>
+    <p>Reach out with questions about the waitlist or housing options.</p>
   </div>
 </section>
 
@@ -59,9 +59,12 @@
   </div>
   <form class="contact-form card" action="mailto:info@harmonyhomeslivingllc.com" method="post" enctype="text/plain">
     <h2>Send a Message</h2>
-    <label>Full Name<input type="text" name="name" required /></label>
-    <label>Phone Number<input type="tel" name="phone" /></label>
-    <label>Email Address<input type="email" name="email" required /></label>
+    <div class="form-row">
+      <label>First Name<input type="text" name="first_name" autocomplete="given-name" required /></label>
+      <label>Last Name<input type="text" name="last_name" autocomplete="family-name" required /></label>
+    </div>
+    <label>Phone Number<input type="tel" name="phone" autocomplete="tel" /></label>
+    <label>Email Address<input type="email" name="email" autocomplete="email" /></label>
     <label>Message<textarea name="message" rows="5" required></textarea></label>
     <button type="submit" class="btn btn-orange">SEND MESSAGE</button>
 
@@ -90,7 +93,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 Harmony Homes Independent Living LLC. All Rights Reserved. &nbsp; | &nbsp; Equal Housing Opportunity</p>
+      <p>© 2026 Harmony Homes Independent Living, LLC. All Rights Reserved. &nbsp; | &nbsp; Equal Housing Opportunity</p>
     </div>
   </footer>
 </body>

@@ -1,13 +1,13 @@
-# Harmony Homes Independent Living LLC Website
+# Harmony Homes Independent Living, LLC Website
 
 This is a static HTML/CSS/JavaScript website built for quick editing in VS Code and deployment to GoDaddy hosting.
 
 ## Pages Included
 - Home
 - About Us
-- Available Rooms
+- Rooms
 - Amenities
-- Apply Now
+- Waitlist
 - Pay Rent
 - Foundation
 - Resources
